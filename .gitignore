@@ -1,0 +1,64 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/*
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+### Project ###
+/.scannerwork
+/.php-cs-fixer.cache
+/build
+media/*
+!media/.gitkeep
+/docker-compose-dev.yml
+/public/dist/
+/public/uploads/
+/supervisord.*
+/tmp
+/public/robots.txt
+!translations/messages*
+### PROJECT ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+###< friendsofphp/php-cs-fixer ###
+
+###> IDE ###
+.idea
+.vscode
+.phpactor.json
+###< IDE ###
+
+###> Command output/import files ###
+/data/**/*.csv
+/data/**/*.log
+###> Command output/import files ###
+
+###> pentatrion/vite-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+###< pentatrion/vite-bundle ###
+
+###> vincentlanglet/twig-cs-fixer ###
+.twig-cs-fixer.cache
+###< vincentlanglet/twig-cs-fixer ###
+
+###> deployments ###
+auth.json
+###< deployments ###
+>>>>>>> Stashed changes
