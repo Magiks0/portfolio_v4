@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import './components/reset';
+
+body {
+    .section {
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+#fixed_block {
+    z-index: 0;
+    position: sticky;
+    background-attachment: fixed;
+    background: radial-gradient(ellipse at top left, #29292c, #1a1b20);
+}
+
+  
+  
